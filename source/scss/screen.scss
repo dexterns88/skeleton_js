@@ -1,0 +1,65 @@
+// ----------------------------------------------------------------------------
+// Style
+// ----------------------------------------------------------------------------
+
+// Fontawesome
+$fa-font-path: "../../fonts";
+
+// ----------------------------------------------------------------------------
+// Libraries
+// ----------------------------------------------------------------------------
+//@import '../../node_modules/normalize-scss/sass/normalize.scss';
+//@import '../../node_modules/breakpoint-sass/stylesheets/breakpoint.scss';
+//@import '../../node_modules/font-awesome/scss/font-awesome.scss';
+
+@import 'variables.scss';
+@import 'mixins';
+@import 'debug';
+
+// source setup theme
+:root {
+  font-size: 12px;
+
+  @include breakpoint($s) {
+    font-size: 10px;
+  }
+}
+
+/*
+| Typography
+========================= */
+h1 {
+  font-family: $logo-font;
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-family: $logo-font;
+}
+
+h3 {
+  font-size: 3.0rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+h5 {
+  font-size: 2.6rem;
+}
+
+p {
+  //font-size: 1.4rem;
+}
+
+i.fa {
+  span {
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
