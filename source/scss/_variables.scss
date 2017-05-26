@@ -11,8 +11,8 @@ $legacy-support-for-ie8: false;
 $default-gutter: 0;
 
 // Singularity Grid
-@include add-grid(12);
-@include add-gutter($default-gutter);
+//@include add-grid(12);
+//@include add-gutter($default-gutter);
 
 
 // Breakpoints: Min-width
